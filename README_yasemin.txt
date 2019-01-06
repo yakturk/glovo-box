@@ -1,7 +1,7 @@
 There is an OrderService which provides service to the API. The service returns orders for each courier according to conditions.
 Conditions are defined according to WORDING.md file. 
 
-I had problem to understand slot prioritise conditions. So, I would like to explain that what I understood and developed for slot prioritise:
+ slot prioritise:
 - All orders will be shown in order, according to their pickup distances. 
 - But if there are a few orders inside of a slot (500m) and this slot is the closest to the Courier: Orders are prioritised via vip/food parameters.
 For Example:
